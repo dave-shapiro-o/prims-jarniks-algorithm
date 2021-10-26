@@ -1,5 +1,5 @@
 # prims-jarviks-algorithm
-My initial solution for a Minimum Spanning Tree challenge on HackerRank:
+My initial solution for an MST (minimum spanning tree) challenge on HackerRank:
 
 https://www.hackerrank.com/challenges/primsmstsub/problem
 
