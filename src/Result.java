@@ -9,9 +9,11 @@ class Result {
      *
      * The function is expected to return an INTEGER.
      * The function accepts following parameters:
-     *  1. INTEGER n
-     *  2. 2D_INTEGER_ARRAY edges
-     *  3. INTEGER start
+     *  1. INTEGER n -> the number of nodes
+     *  2. 2D_INTEGER_ARRAY edges -> as List of Lists, where each list has 3 integers:
+     *                               index 0 and 1 : nodes that the edge connects
+     *                               index 2 : the weight of the edge
+     *  3. INTEGER start -> the starting node
      */
     public static int prims(int n, List<List<Integer>> edges, int start) {
 
